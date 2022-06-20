@@ -1,2 +1,3 @@
 # Striver-SDE-Sheet
-Just made to store the solutions at a one place and for Quick Revision 
+Here I have stored all the Optimal Solutions for the 
+<a href="https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/" ><link rel="icon" href="code-solid.svg" >SDE Sheet</a> solved on platforms including Leetcode, Codestudion, InterviewBit and GeeksforGeeks!
