@@ -4,7 +4,7 @@ Space Complexity -> O(n)  as we are using auxiliary space for the temp array to 
 
 
 
-Codestudion Edge cases (imp problem)
+Codestudio Edge cases (imp problem)
 #include <bits/stdc++.h> 
 long long merge(long long arr[],long long temp[], long long int left,long long int mid, long long int right){
     long long int i = left;
