@@ -20,8 +20,8 @@ public:
 };
 
 
-
- Extension of moore's algorithm 
+Optimal Approach:
+ Extension of moore's voting algorithm 
         TC -> O(n)+O(n)
         SC -> O(1) 
    
