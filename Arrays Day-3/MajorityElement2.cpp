@@ -1,6 +1,6 @@
-Better Approach : Hashmap unordered map
+/*Better Approach : Hashmap unordered map
 TC -> O(nlogn)
-SC -> O(n)
+SC -> O(n) */
 class Solution {
 public:
     vector<int> majorityElement(vector<int>& nums) {
@@ -20,11 +20,12 @@ public:
 };
 
 
+/*
 Optimal Approach:
- Extension of moore's voting algorithm 
+ Extension of moores voting algorithm 
         TC -> O(n)+O(n)
         SC -> O(1) 
-   
+ */
    
 class Solution {
 public:
