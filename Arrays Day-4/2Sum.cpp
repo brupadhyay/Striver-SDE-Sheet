@@ -1,7 +1,8 @@
+/*
 Solution 1: Naive Approach (Brute Force)
   
 Time Complexity - O(N^2)
-Space Complexity - O(1)
+Space Complexity - O(1) */
   
 vector<int> twoSum(vector<int>& nums, int target) {
     vector<int> res;
@@ -55,7 +56,7 @@ vector<int> twoSum(vector<int>& nums, int target) {
 
     	    return res;
 	}
-  
+/*  
 Time Complexity: O(NlogN)
 
 Space Complexity: O(N)
@@ -66,7 +67,7 @@ Approach: We can solve this problem efficiently by using hashing. We’ll use a 
 if there’s a value target – i that can be added to the current array value i to get the sum equals to target.
   If target – i is found in the map, we return the current index, and index stored at target – nums[index] location in the map. 
 
-This can be done in constant time.
+This can be done in constant time. */
   
  class Solution {
 public:
@@ -89,6 +90,7 @@ public:
     }
 };
 
+/*
 Time Complexity: O(N)
 
-Space Complexity: O(N)
+Space Complexity: O(N) */
