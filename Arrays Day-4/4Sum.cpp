@@ -1,4 +1,4 @@
-Solution 1: Using 3 pointers and Binary Search
+// Solution 1: Using 3 pointers and Binary Search 
 
 class Solution {
 public:
@@ -36,9 +36,10 @@ public:
         return res;
     }
 };
+/*
 Time Complexity: O(N log N + N³ logN)
 Reason: Sorting the array takes N log N and three nested loops will be taking N³ and for binary search, it takes another log N.
-Space Complexity: O(M * 4), where M is the number of quads
+Space Complexity: O(M * 4), where M is the number of quads */
 
 
 Solution 2: Optimized Approach
@@ -99,5 +100,5 @@ Solution 2: Optimized Approach
     
         return res;
     }
-Time Complexity - O(N^3)
-Space Complexity - O(1)
+// Time Complexity - O(N^3)
+// Space Complexity - O(1)
